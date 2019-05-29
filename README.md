@@ -9,8 +9,8 @@ This work is mainly modified from:
 <br>
 
 ## Data:
-* **stop-words dictionary**: a stop-words dictionary file could leverage the final performance of EUREKA, an example could be seen [here](https://github.com/Schlampig/i_learn_deep/blob/master/NewWordDetection/dict.txt) (this dictionary is copied from the [Lyrichu](https://github.com/Lyrichu/NewWordDetection)). <br>
-* **input corpus**: the input corpus is a long string, such as a novel text, or a concatenated documentation pieces. See an [example](https://github.com/Schlampig/i_learn_deep/blob/master/NewWordDetection/document.txt). <br>
+* **stop-words dictionary**: a stop-words dictionary file could leverage the final performance of EUREKA, an example could be seen [here](https://github.com/Schlampig/EUREKA/blob/master/stop_words.txt) (this dictionary is copied from the [Lyrichu](https://github.com/Lyrichu/NewWordDetection)). <br>
+* **input corpus**: the input corpus is a long string, such as a novel text, or a concatenated documentation pieces. See an [example](https://github.com/Schlampig/EUREKA/blob/master/document.txt). <br>
 * **corpus in mongodb**: you can store each document as one sample in a collection of a mongodb database, with the format like this:
 ```
 {"_id": ObjectId("123456789"), "content": your_corpus(long string)}
