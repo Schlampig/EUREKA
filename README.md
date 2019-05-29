@@ -4,7 +4,7 @@
 This work is mainly modified from:
   * **original authors**: [Xylander23](https://github.com/xylander23/New-Word-Detection) is the original author, and then [Lyrichu](https://github.com/Lyrichu/NewWordDetection) modified the code to python3 version. <br>
   * **references**: [Code for Chinese Word Segmentation](https://github.com/Moonshile/ChineseWordSegmentation), [Blog about New Words Detection](http://www.matrix67.com/blog/archives/5044). <br>
-  * **old version**: a immature version from Kuyi King could be find [here](https://github.com/Schlampig/i_learn_deep/tree/master/NewWordDetection). <br>
+  * **old version**: an immature version from Kuyi King could be find [here](https://github.com/Schlampig/i_learn_deep/tree/master/NewWordDetection). <br>
  
 <br>
 
