@@ -9,9 +9,9 @@ This work is mainly modified from:
 <br>
 
 ## Data:
-* **stop-words dictionary**: a stop-words dictionary file could leverage the final performance of EUREKA, an example could be seen [here](https://github.com/Schlampig/EUREKA/blob/master/stop_words.txt) (this dictionary is copied from the [Lyrichu](https://github.com/Lyrichu/NewWordDetection)). <br>
-* **input corpus**: the input corpus is a long string, such as a novel text, or a concatenated documentation pieces. See an [example](https://github.com/Schlampig/EUREKA/blob/master/document.txt). <br>
-* **corpus in mongodb**: you can store each document as one sample in a collection of a mongodb database, with the format like this:
+  * **stop-words dictionary**: a stop-words dictionary file could leverage the final performance of EUREKA, an example could be seen [here](https://github.com/Schlampig/EUREKA/blob/master/stop_words.txt) (this dictionary is copied from the [Lyrichu](https://github.com/Lyrichu/NewWordDetection)). <br>
+  * **input corpus**: the input corpus is a long string, such as a novel text, or a concatenated documentation pieces. See an [example](https://github.com/Schlampig/EUREKA/blob/master/document.txt). <br>
+  * **corpus in mongodb**: you can store each document as one sample in a collection of a mongodb database, with the format like this:
 ```
 {"_id": ObjectId("123456789"), "content": your_corpus(long string)}
 ```
@@ -70,6 +70,13 @@ res = model.discover_corpus_mongo(col, n=20000, corpus_size=200000, re_list=True
 - [x] Naive spliting strategy for very large corpus.
 - [x] Handle corpus stored in mongo.
 - [ ] Add crawling strategy to automatically filter and find further infomation of the detected strings.
+- [ ] Using more effective and efficient model.
+
+<br>
+
+## Allusion
+  * *[Eureka](https://en.wiktionary.org/wiki/eureka)* is from Ancient Greek word *heúrēka*, which means *I have found*.
+  * *[Eureka](https://www.bones.co.jp/eureka-seven)* is also a heroine from a Japanese anime called *Eureka Seven*.
 
 
 
