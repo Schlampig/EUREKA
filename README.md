@@ -60,7 +60,7 @@ res = model.discover_corpus_mongo(col, n=20000, corpus_size=200000, re_list=True
   * jieba>=0.39
   * tqdm>=4.19.5
   * Flask(optional, if runing the server.py)
-  * pymongo(optional, EUREKA could handle mongo data but it essentially does not need this lib)
+  * pymongo(optional, EUREKA could handle mongo data while it essentially does not need this lib)
   * ipdb(optinoal, if debugging in command line)
   
 <br>
