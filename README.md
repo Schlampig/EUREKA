@@ -77,6 +77,9 @@ res = model.discover_corpus_mongo(col, n=20000, corpus_size=200000, re_list=True
   * *[Eureka](https://en.wiktionary.org/wiki/eureka)* is from Ancient Greek word *heúrēka*, which means *I have found*.
   * *[Eureka](https://www.bones.co.jp/eureka-seven)* is also a heroine from a Japanese anime called *Eureka Seven*.
 
+<br>
+
+![AI日读（Daily AI Paper View）](https://github.com/Schlampig/Knowledge_Graph_Wander/blob/master/content/daily_ai_paper_view.png)
 
 
 
