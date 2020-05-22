@@ -79,7 +79,7 @@ res = model.discover_corpus_mongo(col, n=20000, corpus_size=200000, re_list=True
 
 <br>
 
-![AI日读（Daily AI Paper View）](https://github.com/Schlampig/Knowledge_Graph_Wander/blob/master/content/daily_ai_paper_view.png)
+<img src="https://github.com/Schlampig/Knowledge_Graph_Wander/blob/master/content/daily_ai_paper_view.png" height=25% width=25% />
 
 
 
