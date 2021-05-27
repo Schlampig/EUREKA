@@ -62,14 +62,6 @@ res = model.discover_corpus_mongo(col, n=20000, corpus_size=200000, re_list=True
   * Flask(optional, if runing the server.py)
   * pymongo(optional, EUREKA could handle mongo data while it essentially does not need this lib)
   * ipdb(optinoal, if debugging in command line)
-  
-<br>
-
-## TODO
-- [x] Naive spliting strategy for very large corpus.
-- [x] Handle corpus stored in mongo.
-- [ ] Add crawling strategy to automatically filter and find further infomation of the detected strings.
-- [ ] Using more effective and efficient model.
 
 <br>
 
